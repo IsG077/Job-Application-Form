@@ -1,0 +1,30 @@
+/* ── Add these lines to the bottom of your existing job.css ── */
+
+.form-error {
+  background: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid #FCA5A5;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+}
+
+.field-error {
+  display: block;
+  color: #DC2626;
+  font-size: 0.78rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.input-error {
+  border-color: #EF4444 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2) !important;
+}
+
+.form-card button:disabled {
+  background: #6B7280;
+  cursor: not-allowed;
+  transform: none;
+}
